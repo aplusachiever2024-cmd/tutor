@@ -1,0 +1,11 @@
+:root{--navy:#102D4B;--gold:#DDAE50;--ivory:#F7F7F4}
+body{margin:0;font-family:Arial;background:var(--ivory);color:#18212B}
+header{display:flex;align-items:center;justify-content:space-around;padding:20px;background:white}
+.logo img{width:150px}
+nav a{margin:10px;text-decoration:none;color:var(--navy)}
+.button{background:var(--navy);color:white;padding:12px 20px;text-decoration:none}
+.hero,section{padding:80px 10%}
+h1{font-size:60px;color:var(--navy)}
+h1 span{color:var(--gold)}
+footer{background:var(--navy);color:white;text-align:center;padding:40px}
+@media(max-width:768px){header{flex-direction:column}h1{font-size:40px}}
