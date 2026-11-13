@@ -1,1 +1,1 @@
-
+console.log('INQ EDU loaded');
